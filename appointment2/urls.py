@@ -27,9 +27,7 @@ router.register('BillingApi',views.BillingData)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(router.urls)),
-    # path('c/', views.create_appointment, name='create_appointment'),
-    # path('l/', views.list_appointments, name='list_appointments'),
-    # path('cb/<int:appointment_id>/', views.create_bill, name='create_bill'),
+  
 ]
 
 
